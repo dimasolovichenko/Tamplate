@@ -1,0 +1,18 @@
+* {
+	box-sizing: border-box;
+}
+body {
+
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+.wrapper {
+	overflow: hidden;
+	position: relative;
+}
+.container {
+	width: 70%;
+	margin: 0 auto;
+}

@@ -1,0 +1,31 @@
+.button {
+   display: inline-block;
+   text-decoration: none;
+   font-family: 'Quattrocento Sans', sans-serif;
+   font-size: 14px;
+   text-transform: uppercase;
+   border: 2px solid #fff;
+   border-radius: 5px;
+   color: #fff;
+   padding: 14px 20px;
+   margin: 5px;
+}
+.button:hover {
+   color: #000;
+   background-color: #23b7a4;
+   border-color: #23b7a4;
+}
+.button-lg {
+   padding: 14px 20px;
+}
+.button-sm {
+   padding: 14px 20px;
+}
+.button-submit {
+   color: #000;
+   background-color: #23b7a4;
+   border-color: #23b7a4;
+   padding: 20px 20px;
+}
+
+
