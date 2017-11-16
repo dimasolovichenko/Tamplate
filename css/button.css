@@ -2,7 +2,7 @@
    display: inline-block;
    text-decoration: none;
    text-transform: uppercase;
-   font-family: 'Quattrocento Sans', sans-serif;
+   font-family: Arial, sans-serif;
    color: #fff;
    background-color: transparent;
    font-size: 14px;
@@ -10,8 +10,10 @@
    border-radius: 5px;
    padding: 14px 20px;
    margin: 5px;
+   cursor: pointer;
 }
-.button:hover {
+.button:hover,
+.button:focus {
    color: #000;
    background-color: #23b7a4;
    border-color: #23b7a4;
@@ -22,11 +24,6 @@
 .button-sm {
    padding: 14px 20px;
 }
-.button-submit {
-   color: #000;
-   background-color: #23b7a4;
-   border-color: #23b7a4;
-   padding: 20px 20px;
-}
+
 
 
