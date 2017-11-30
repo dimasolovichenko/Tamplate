@@ -42,8 +42,35 @@
 .section-inverse {
 	color: #fff;
 }
-.section-body {
-	display: flex;
-	flex-wrap: wrap;
-	flex-grow: 1;
+/*-------------------------HEADER-------------------------------------------------*/
+.header {
+  padding: 20px 0;
 }
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-header .nav-item {
+  display: inline-block;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--font-color);
+  font-weight: 700;
+  padding: 10px 12px;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.nav-header .nav-item:last-child {
+  margin-right: -12px;
+}
+.nav-header .nav-item:hover {
+  border-color: var(--accent-color);
+}
+.header .active {
+  background-color: var(--accent-color) !important;
+  color: #fff !important;
+}
+/*----------------------------------------------------------------------------------*/
