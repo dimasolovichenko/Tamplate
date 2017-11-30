@@ -1,15 +1,17 @@
 * {
 	box-sizing: border-box;
 }
-
 body {
     font: ;
 }
-
 a {
 	text-decoration: none;
 }
-
+img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
 .wrapper {
 	overflow: hidden;
 	position: relative;
