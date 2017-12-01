@@ -39,7 +39,7 @@
 	flex-direction: column;
 	justify-content: center;
 }
-.section-inverse {
+.inverse {
 	color: #fff;
 }
 /*-------------------------HEADER-------------------------------------------------*/
@@ -56,7 +56,7 @@
   font-size: 13px;
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--font-color);
+  color: #fff;
   font-weight: 700;
   padding: 10px 12px;
   margin-left: 10px;
