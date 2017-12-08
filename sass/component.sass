@@ -1,0 +1,87 @@
+.section
+	position: relative
+	display: flex
+	flex-direction: column
+
+.section-background
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	background-size: cover
+
+.section-background img
+	display: block
+	width: 100%
+	height: 100%
+	object-fit: cover
+
+.section-overlay
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	background-color: #fff
+	opacity: 0.7
+
+.section-decor
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+
+.section-foreground
+	position: relative
+	display: flex
+	flex-direction: column
+	justify-content: center
+
+.inverse
+	color: #fff
+
+/*-------------------------HEADER-------------------------------------------------*/
+.header
+    padding: 20px 0
+
+    &-content
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+.nav-header
+
+    .nav-item
+        display: inline-block
+        font-size: 13px
+        text-decoration: none
+        text-transform: uppercase
+        color: #fff
+        font-weight: 700
+        padding: 10px 12px
+        margin-left: 10px
+        border: 1px solid transparent
+        border-radius: 3px
+
+        &:last-child
+            margin-right: -12px
+
+        &:hover
+            border-color: var(--accent-color)
+
+        .active
+            background-color: var(--accent-color) !important
+            color: #fff !important
+
+/*-------------------------FOOTER---------------------------------------------------*/
+.footer
+    background-color: var(--accent-color)
+    padding: 20px 0
+
+    &-content
+        display: flex
+        flex-direction: row
+        justify-content: center
+        text-align: center
